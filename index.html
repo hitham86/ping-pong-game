@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="scoreboard">
+            <div id="leftScore">Player 1: 0</div>
+            <div id="rightScore">Player 2: 0</div>
+        </div>
+        <button id="restartButton">Restart</button>
+        <div id="winMessage" class="hidden">Player <span id="winner">1</span> Wins!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
